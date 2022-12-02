@@ -1,4 +1,4 @@
-# U6143_ssd1306
+# 0.96 OLED
 ## Enable i2c 
 ```bash
 sudo raspi-config
@@ -8,11 +8,11 @@ Enable i2c
 
 ##  Download library 
 ```bash
-git clone https://github.com/UCTRONICS/U6143_ssd1306.git
+git clone https://github.com/ccritix/0.96-OLED.git
 ```
 ## Compile the source code 
 ```bash
-cd U6143_ssd1306/C 
+cd 0.96-OLED/C 
 ```
 ```bash
 make 
@@ -22,7 +22,7 @@ make
 ## Run the display
 
 ```bash 
-cd U6143_ssd1306/C 
+cd 0.96-OLED/C 
 ```
 ```bash 
 ./display 

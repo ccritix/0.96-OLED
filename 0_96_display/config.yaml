@@ -1,8 +1,8 @@
-name: "UCTronics Display"
-description: "UCTronics LCD Display"
-url: "https://github.com/edward-ardu/U6143_ssd1306_HA/tree/main/uc_tronics_display/lcd_display"
+name: 0.96 i2c Display"
+description: 0.96 LCD Display"
+url: "https://github.com/ccritix/0.96-OLED/tree/main/0_96_display/lcd_display"
 version: "1.1.2"
-slug: "uc_tronics_display"
+slug: "0_96_display"
 init: false
 arch:
   - aarch64

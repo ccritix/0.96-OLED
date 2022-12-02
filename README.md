@@ -16,7 +16,7 @@
 
     ![4](img/4.png)
 
-5. Pop-up Add repositories, enter the repositories address <https://github.com/UCTRONICS/U6143_HA> ,Click to **ADD**.
+5. Pop-up Add repositories, enter the repositories address <https://github.com/ccritix/0.96-OLED> ,Click to **ADD**.
 
     ![5](img/5.png)
 

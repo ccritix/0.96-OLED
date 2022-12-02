@@ -1,5 +1,5 @@
 /******
-Demo for ssd1306 i2c driver for  Raspberry Pi 
+Demo for 0.96 OLED i2c driver for  Raspberry Pi 
 ******/
 #include <stdio.h>
 #include "ssd1306_i2c.h"

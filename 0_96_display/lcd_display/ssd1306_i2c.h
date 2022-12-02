@@ -1,6 +1,6 @@
 /*********************************************************************
-*This is UCTRONICS ssd1306 library header file;
-This library just support 128X32 lcd with i2c interface;
+*This is 0.96 OLED ssd1306 library header file;
+This library just support 128X64 lcd with i2c interface;
 *********************************************************************/
 #ifndef SSD1306_I2C_H_
 #define SSD1306_I2C_H_
@@ -10,7 +10,7 @@ extern int i2cd;
 /**********Select display temperature type**************/
 #define CELSIUS       0
 #define FAHRENHEIT    1
-#define TEMPERATURE_TYPE  FAHRENHEIT
+#define TEMPERATURE_TYPE  CELSIUS
 /**********Select display temperature type**************/
 
 /**********Select display network IP type**************/
@@ -24,7 +24,7 @@ extern int i2cd;
 #define IP_DISPLAY_OPEN     0
 #define IP_DISPLAY_CLOSE    1
 #define IP_SWITCH       IP_DISPLAY_OPEN
-#define CUSTOM_DISPLAY   "UCTRONICS"
+#define CUSTOM_DISPLAY   "0.96 OLED"
 /************************Turn off the IP display. Can customize the display****************/
 
 #define BLACK 0
@@ -37,7 +37,7 @@ extern int i2cd;
 #define SSD1306_SWITCHCAPVCC 0x2
 
 #define SSD1306_LCDWIDTH                  128
-#define SSD1306_LCDHEIGHT                 32
+#define SSD1306_LCDHEIGHT                 64
 void ssd1306_begin(unsigned int switchvcc, unsigned int i2caddr); //switchvcc should be SSD1306_SWITCHCAPVCC
 void OLED_ShowString(unsigned char x,unsigned char y, unsigned char *p,unsigned char Char_Size);
 void OLED_ShowChar(unsigned char x,unsigned char y,unsigned char chr,unsigned char Char_Size);
