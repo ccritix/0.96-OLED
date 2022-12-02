@@ -1,5 +1,5 @@
-name: 0.96 i2c Display"
-description: 0.96 LCD Display"
+name: "0.96 i2c Display"
+description: "0.96 LCD Display"
 url: "https://github.com/ccritix/0.96-OLED/tree/main/0_96_display/lcd_display"
 version: "1.1.2"
 slug: "0_96_display"
