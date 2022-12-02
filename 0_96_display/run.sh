@@ -10,7 +10,7 @@ if ls /dev/i2c-1; then
     # make clean
     make 
 
-    echo 0.96 OLED Display now be showing information";
+    echo "0.96 OLED Display now be showing information";
     ./display
 else
 echo "no found i2c!"
