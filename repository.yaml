@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
 name: Home Assistant add-on repository
 url: 'https://github.com/ccritix/0.96-OLED'
-maintainer: cristi <campean_cristian@yahoo.com>
+maintainer: Cristian Campean <campean_cristian@yahoo.com>
