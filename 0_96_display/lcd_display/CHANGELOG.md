@@ -1,3 +1,3 @@
 | Version | Change |
 |---|---|
-| 0.1 | initial release |
+| 1.1.2 | initial release |
